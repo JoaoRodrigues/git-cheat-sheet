@@ -51,7 +51,7 @@ Logo" height="100"/></div>
 | `git push NAME BRANCH`    | Copies commits of the current branch onto branch BRANCH of NAME. |
 | `git pull NAME BRANCH`    | Merges commits of branch BRANCH of NAME onto the current branch. |
 
-## Advanced Git
+## Undoing Changes
 
 | Command                 | Description                                                  |
 | ----------------------- | ------------------------------------------------------------ |
