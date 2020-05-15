@@ -12,10 +12,10 @@ The cheat sheet is written as a single Markdown file and published as a Github p
 If you want to preview the rendered web page, setup Jekyll using the instructions [on this page](https://help.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll). 
 
 ### Previewing the PDF file
-The PDF version is automatically generated using [wkhtmltopdf](https://wkhtmltopdf.org/). To preview changes locally, generate the HTML page, install wkhtmltopdf, and then run:
+The PDF version is automatically generated using [wkhtmltopdf](https://wkhtmltopdf.org/). I have not found an easy way to preview how the PDF will look after the changes when using Jekyll locally. As a workaround, you can always run it on your fork first, after you enable gh pages, with the following syntax:
 
 ```bash
-wkhtmltopdf https://localhost:4000 new.pdf
+wkhtmltopdf https://joaorodrigues.github.io/git-cheat-sheet/ git-cheat-sheet.pdf
 ```
 
 ## License
