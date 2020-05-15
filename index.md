@@ -2,7 +2,10 @@
 src="https://raw.githubusercontent.com/MolSSI/molssi-branding-guidelines/master/logos/main_logo/molssi_main_logo.png" alt="MolSSI Logo" title="MolSSI 
 Logo" height="100"/></div>
 
-<div style="text-align: center;"><h1 style='margin: 0; padding: 0; border-bottom: none'>Git Cheat Sheet</h1></div>
+<div style="text-align: center; margin-bottom: 1em">
+	<h1 style='margin: 0; padding: 0; border-bottom: none'>Git Cheat Sheet</h1>
+	<a href="https://github.com/JoaoRodrigues/git-cheat-sheet/raw/master/git-cheat-sheet.pdf">PDF version</a>
+</div>
 
 ## Git Configuration
 
@@ -71,3 +74,6 @@ Logo" height="100"/></div>
 | repository   | The collection of all files, changes (commits), and branches. |
 | staging area | All the files and changes added to the staging area but not yet committed. |
 | working tree | All files and changes not yet added to the staging area.     |
+
+## Credits
+This cheat sheet was created by @janash, @joaorodrigues, and @vhchavez and is licensed under CC BY-SA 4.0.
