@@ -58,7 +58,7 @@ Logo" height="100"/></div>
 | `git checkout -- FILE`  | Discards changes to a specific file in the working tree.     |
 | `git reset HEAD FILE`   | Unstages a specific file (opposite of git add) but retains changes. |
 | `git reset HEAD`        | Unstages all currently staged files.                         |
-| `git reset --hard HEAD` | Erases all changes (:scream:), reverting the repository to the state of HEAD. |
+| `git reset --hard HEAD` | Erases **all** changes, reverting the repository to the state of HEAD. |
 
 ## Glossary
 
