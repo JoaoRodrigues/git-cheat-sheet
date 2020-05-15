@@ -1,0 +1,21 @@
+name: Create PDF.
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Make PDF
+      run: |
+        sudo apt-get install wkhtmltopdf
+        wkhtmltopdf https://joaorodrigues.github.io/git-cheat-sheet/ git-cheat-sheet.pdf
+        git config --global user.name 'Autobot'
+        git config --global user.email 'joaorodrigues@users.noreply.github.com'
+        git commit -m "Automated PDF"
+        git push
