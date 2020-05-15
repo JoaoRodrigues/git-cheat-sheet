@@ -1,5 +1,5 @@
 <img src="https://raw.githubusercontent.com/MolSSI/molssi-branding-guidelines/master/logos/main_logo/molssi_main_logo.png" alt="MolSSI Logo"
-	title="MolSSI Logo" height="100"/>
+	title="MolSSI Logo" height="100" style="text-align: center;"/>
 
 <div style="text-align: center;"><h1 style='margin: 0; padding: 0; border-bottom: none'>Git Cheat Sheet</h1></div>
 
